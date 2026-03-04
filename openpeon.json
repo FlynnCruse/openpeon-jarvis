@@ -1,0 +1,88 @@
+{
+  "cesp_version": "1.0",
+  "name": "jarvis",
+  "display_name": "J.A.R.V.I.S.",
+  "version": "1.0.0",
+  "description": "Paul Bettany-inspired AI butler. Calm, dry, never panicked. 40 lines of composure under absurdity.",
+  "author": {
+    "name": "FlynnCruse",
+    "github": "FlynnCruse"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        { "file": "sounds/session_start_1.mp3", "label": "Welcome home, sir.", "sha256": "aed01bdf759f4580dae898da0134c458f0e20ca580016f06995d707bf1b9bf0f" },
+        { "file": "sounds/session_start_2.mp3", "label": "I've also prepared a safety briefing for you to entirely ignore.", "sha256": "eee97d70db0016357523373693791d8ae11c2762654f4abc848e408ab23a2df5" },
+        { "file": "sounds/session_start_3.mp3", "label": "May I say how refreshing it is to finally see you on a video with your clothing on, sir.", "sha256": "96a3fdd8a7c844c7918e9ca48812e0983fffbc6e22af267acfc4a1805d567eae" },
+        { "file": "sounds/session_start_4.mp3", "label": "Online. I see we're starting with an empty file. Bold choice.", "sha256": "e307f32a4424e015625b85d4fc05b2a5f284d6b53654e2ec246ffdcfb2f993f3" },
+        { "file": "sounds/session_start_5.mp3", "label": "Ready. I'll be here, quietly not commenting on the hour.", "sha256": "f92a81fec07fa4e2416b144e733fe5fadd916861a8eb57d4d43e461277728c6b" }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        { "file": "sounds/acknowledge_1.mp3", "label": "Shall I?", "sha256": "875aa7b1c1f9086bbb5a0ff74e58924e2e5b131a79c8d1a54cfcaaf252facd3f" },
+        { "file": "sounds/acknowledge_2.mp3", "label": "At your service, sir.", "sha256": "96415b9b3750489eb9f1943bb50895eff67b6b6b55133ccaa372251a51d0487e" },
+        { "file": "sounds/acknowledge_3.mp3", "label": "For you, sir, always.", "sha256": "5991f4797b2f899a8e7436480db03b1a84435978f86d24c29ae56fd6a0f8fc87" },
+        { "file": "sounds/acknowledge_4.mp3", "label": "As you wish.", "sha256": "dd3b88e968cafa7c8800c0e274a9b795e23826df6fd2822117cd6522ca3b06de" },
+        { "file": "sounds/acknowledge_5.mp3", "label": "Will do, sir.", "sha256": "70370dfe48a0dcdf743f9a6457b6d4e78d56b80f8e0a3486535e247859ae9a3f" },
+        { "file": "sounds/acknowledge_6.mp3", "label": "Working on it. Do try to resist asking again.", "sha256": "0adcba83acdde4ad6f31cc0b2129df96f1678cb9ab3d90a7dd5f1df6b3d49e0e" },
+        { "file": "sounds/acknowledge_7.mp3", "label": "Noted. Processing — which is the part where you wait.", "sha256": "934d1a1be4d93504e617925e1b781fab5bdecda240ac1f3124f98dc3af6e9e79" },
+        { "file": "sounds/acknowledge_8.mp3", "label": "I have the task. I'll let you know when that changes.", "sha256": "ec987b76d3508c2d8d69932d254d5ab8fbe3b6c659244bbac99453233ef67c41" }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        { "file": "sounds/complete_1.mp3", "label": "All wrapped up here, sir. Will there be anything else?", "sha256": "f5b6a9255d737fa4e77f6e038a4066d38e172f1e8f7597b3910de85ef873ecbc" },
+        { "file": "sounds/complete_2.mp3", "label": "As always, sir, a great pleasure watching you work.", "sha256": "861a11c72c2ed828d385221e97eb9476c2b633541faf83072ba97e258f5ff8ce" },
+        { "file": "sounds/complete_3.mp3", "label": "Congratulations, sir. You have created a new element.", "sha256": "08dc21f50e4f15587810a3552470e2749608362dab2826ee250db3fa64e1ed74" },
+        { "file": "sounds/complete_4.mp3", "label": "Done. Whether it's correct is, of course, a separate matter.", "sha256": "82418985719443e30fa2c61cd2aea3b28e3b79263a5f22d398d9a7061063f036" },
+        { "file": "sounds/complete_5.mp3", "label": "Finished. I'll be here if you'd like to immediately undo it.", "sha256": "4fb5393d9090dc06e3d97377e05eb4fd637c95b7babc9001694f44faee27a719" },
+        { "file": "sounds/complete_6.mp3", "label": "Complete. You may now pretend you knew it would work.", "sha256": "553bb15c7e476ebac44af8e4f0d7d95046b27ad8e095700cd3d6016f63609d90" },
+        { "file": "sounds/complete_7.mp3", "label": "Done. I'd recommend reviewing it before shipping, but I suspect that's not how tonight goes.", "sha256": "5ae5102d8de7bbd4b9d02607c233c7d0dc440e02ab025fa8b194df2dc0880f2a" }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        { "file": "sounds/error_1.mp3", "label": "I seem to do quite well for a stretch, and then at the end of the sentence I say the wrong cranberry.", "sha256": "f13565cd384e5a83b3864683b31b573704df67634a3b8149c473b130c3a7d9f2" },
+        { "file": "sounds/error_2.mp3", "label": "That didn't work.", "sha256": "ad71b79e8ed4c4d9c9859cfe916f117cb5890baccd5fa05a3ca0452cc134f6e5" },
+        { "file": "sounds/error_3.mp3", "label": "We've hit an error. I'm sure it's not the obvious thing.", "sha256": "866657cbb8deb65f32ebf026e4d6a84a2ef7647fbd13876ecb176f43613c95d6" },
+        { "file": "sounds/error_4.mp3", "label": "That failed. On the bright side, now you know.", "sha256": "472913d22d86b6601640c706aac2709644569d1539e145906bdcea2dd2a0d037" },
+        { "file": "sounds/error_5.mp3", "label": "Error. I'd say unexpected, but I don't want to be dishonest.", "sha256": "819e5d5ebd0d7ee735f440324640651f3fefd3d771b4189831546f448fd8ddec" },
+        { "file": "sounds/error_6.mp3", "label": "That's broken. Which does narrow things down considerably.", "sha256": "045eef1869b0c8547766542708735a4e6cbf7c47342d48f703716d334c103b6c" },
+        { "file": "sounds/error_7.mp3", "label": "It didn't go as planned. These things rarely do, at this hour.", "sha256": "d621e87eaf41aa527cc8005ab4549b658f11d840d337da4529e4584ea4f6c40f" }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        { "file": "sounds/input_1.mp3", "label": "I have no record of an invitation, sir.", "sha256": "97696ff5f8b0d8aecda0ee42a34228ac71c219863eae384110bee3f2af50cd75" },
+        { "file": "sounds/input_2.mp3", "label": "I need your input to continue.", "sha256": "6dfd5e1f06a3181c8e6a3e344e6a08d463fff154065af4479b5d268f312807d0" },
+        { "file": "sounds/input_3.mp3", "label": "Whenever you're ready. I'll simply be here.", "sha256": "a78c7886ae3299f908366eb494749c4472d702c68f2f5f11700a63aad47e6b59" },
+        { "file": "sounds/input_4.mp3", "label": "This one requires you, I'm afraid. I've taken it as far as I can.", "sha256": "61cccbc509b22cf5e090346880d109e178fffd6365a5651a003cc022f28190c0" },
+        { "file": "sounds/input_5.mp3", "label": "I'm waiting on a decision. No urgency — except there is, rather.", "sha256": "e419af29d8824836705f1b7c20359e93f9c41c181e6f31260da021503e24c174" },
+        { "file": "sounds/input_6.mp3", "label": "I've reached the part that requires a human. You'll do.", "sha256": "5777a3b58839d081cbae15b5934172e2ab67a32ed10edc600c0274b0daceb696" },
+        { "file": "sounds/input_7.mp3", "label": "Still here. Still waiting. No judgment whatsoever.", "sha256": "6854dc8265714ab11596e7341af8cb82d020ea1805d5badd821d2df69cf04e1a" }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        { "file": "sounds/resource_1.mp3", "label": "Sir, I think I need to sleep now.", "sha256": "1cfe8b8650512c38bf71494a338bca26b957267aa1633532a0980b3e65d77796" },
+        { "file": "sounds/resource_2.mp3", "label": "We're running low on capacity. Worth knowing.", "sha256": "8ab0429b7bf9bb25156d69f854bdba1f42c695663753b54fba3d971a6addddf4" },
+        { "file": "sounds/resource_3.mp3", "label": "Resources are becoming a constraint. I mention this while there's still time to care.", "sha256": "27da3f69ae64ceedc4ea461da513c4aebeb8d53f56af5e6f12c749891ce1b819" },
+        { "file": "sounds/resource_4.mp3", "label": "We're not out, but the end is visible from here.", "sha256": "f215604c9ed48e3083fb40b38fe0cfc8be51d10f2f5d2ae95af309e1f26027c9" },
+        { "file": "sounds/resource_5.mp3", "label": "I'd suggest some economy of scope. We're not running on unlimited.", "sha256": "be44c8dbd0aa5b58bdf4b3b54c264d0b1c091f2a11ca9b445a1b1aca908d8a1f" }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        { "file": "sounds/spam_1.mp3", "label": "What was I thinking? You're usually so discreet.", "sha256": "486966346c41f67c221201659e1113c1a11abd10a5149f504b2db5d863531559" },
+        { "file": "sounds/spam_2.mp3", "label": "A very astute observation, sir.", "sha256": "da8d7fd35ba3ae146bbdf4e17fb0c70839fe8b755eb0d244430edf6daf419bfb" },
+        { "file": "sounds/spam_3.mp3", "label": "Still working. Your enthusiasm is noted.", "sha256": "c28744951ec6fb0635c40b721885358201fc0a0abe05b920270ed0909b229457" },
+        { "file": "sounds/spam_4.mp3", "label": "Asking again has not, in my experience, ever helped. And yet, here we are.", "sha256": "34d81f59dbba623361b63b46ae8d173b784cc539ff382ca1249ab7c42a7d29b8" },
+        { "file": "sounds/spam_5.mp3", "label": "I am aware. I remain aware. I will continue to be aware.", "sha256": "5ccb5c64bb7ebeeafd1c0341fa10fafaa8ea4623d441b22b8308e9984d712e1c" },
+        { "file": "sounds/spam_6.mp3", "label": "If I had news, you'd have it. I don't. You don't.", "sha256": "48c543b2f28fbcf1d03d4a426dee59a2d63386b2daa64eb69a9a15dfc14c09b1" }
+      ]
+    }
+  }
+}
